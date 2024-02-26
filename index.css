@@ -1,0 +1,177 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+.zoom{
+width: 100%;
+height: 1000px;
+position: relative;
+z-index: 1000;
+overflow: hidden;
+background: url('./images/bg.png');
+background-size: cover;
+}
+
+.zoom::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(transparent, #FFF);
+  bottom: 0%;
+  }
+
+#img1{
+  position: absolute;
+  transform: translatex(-50%);
+  left: 50%;
+  z-index: 100;
+  }
+  
+  #img2 {
+  position: absolute;
+  z-index: 100;
+  
+  }
+  
+  #text {
+  position: absolute;
+  transform: translateY(40%);
+  }
+
+  .content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+    
+    
+  .content h2{
+      position: relative;
+      margin-bottom: 45px;
+      font-family: "Oswald", sans-serif;
+      font-size: 44px;
+      text-transform: uppercase;
+      color: #424242;
+      text-align: center;      
+  }
+    
+    .content p {
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 30px 0;
+      position: relative;
+      margin-bottom: 45px;
+      font-family: "Oswald", sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #424242;
+      text-align: center;
+    }
+
+
+
+  /* image slider */
+
+  
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: "Oswald", sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #424242;
+  text-align: center;
+}
+
+h5 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #424242;
+  text-align: center;
+}
+
+
+.Images-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.photo {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  filter: blur(1px);
+  border-radius: 25px;
+}
+
+.photo:hover {
+  flex: 7;
+  filter: blur(0px);
+}
+
+
+.photo-1 {
+  background-image: url("https://th.bing.com/th/id/R.5fd0cc802ac55830ddc36c7eb5dfcbac?rik=W7PD3MOBvp9ebQ&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fhimalayas-mountains-landscape-4k-f3.jpg&ehk=l2aE06Cs4xdXT3IXaO8tU98yAShZ9BnnTq%2fcqwJOndU%3d&risl=1&pid=ImgRaw&r=0");
+}
+
+.photo-2 {
+  background-image: url("https://www.hdwallpapers.in/download/landscape_of_mountain_green_hills_under_cloudy_blue_sky_4k_hd_nature-HD.jpg");
+}
+
+.photo-3 {
+  background-image: url("https://wallpaper.dog/large/10792515.jpg");
+}
+
+.photo-4 {
+  background-image: url("https://wallpaperaccess.com/full/38591.jpg");
+
+}
+
+.photo-5 {
+  background-image: url("https://wallpapercave.com/wp/wp8570627.jpg");
+}
+
+.photo-6 {
+  background-image: url("https://wallpapercave.com/wp/wp7075467.jpg");
+}
+
+.photo-7 {
+  background-image: url("https://images.hdqwalls.com/download/snow-covered-mountains-8k-sf-3840x2160.jpg");
+}
+
+.photo-8 {
+  background-image: url("https://wallpaperaccess.com/full/2180980.jpg");
+}
+
+.photo-9 {
+  background-image: url("https://images.hdqwalls.com/wallpapers/forest-landscape-mountain-nature-river-scenic-4k-lq.jpg");
+
+}
+
+.photo-10 {
+  background-image: url("https://th.bing.com/th/id/R.a729d16dcdf34b340e9547176b8873da?rik=e0MrdnGYq%2bwFHw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2f6%2fc%2f500690.jpg&ehk=e1tr4C%2bc5yePxE3Qk4iUgINf1e7ZCh21u8UL3xww%2f9s%3d&risl=&pid=ImgRaw&r=0");
+}
+
