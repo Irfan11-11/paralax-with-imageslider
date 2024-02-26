@@ -2,7 +2,7 @@ import img1 from './images/img1.png'
 import img2 from './images/img2.png'
 import text from './images/text.png'
 import { useState } from 'react'
-
+import './App.css'
 
 function App() {
   const [offset, setOffset] = useState()
